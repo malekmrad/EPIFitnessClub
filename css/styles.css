@@ -1,0 +1,164 @@
+#product-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+  
+  .product {
+	width: calc(33.33% - 10px); /* Set the width of each product to one third of the container minus some padding */
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	padding: 10px;
+	display: inline-block;
+  }
+  
+body {
+	background-color: #000;
+}
+
+img {
+	max-width: 100%;
+}
+/*main*/
+main {
+	background-color: #fff;
+	padding: 2%;
+	font-size: 1.15em;
+	font-family: 'Roboto Slab', serif;
+}
+.tel {
+	background-color: #a81b1b;
+	padding: 2%;
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.tel a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+.heures {
+	margin-left: 10%;
+}
+.bashome {
+	position: relative;
+	max-width: 500px;
+}
+
+#weights, #cardio, #training {
+	margin: 0 2%;
+}
+
+.cours{
+	border-radius: 8px;
+}
+#contact {
+	text-align: center;
+}
+
+.exercices {
+	float: right;
+	text-align: center;
+}
+main ul {
+	margin: 0 0 4% 10%;
+}
+	
+.grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+}
+.tel-num {
+	font-size: 1.25em;
+	color: #ee1313;
+}
+#panel, #flip {
+	padding: 5px;
+	text-align: center;
+	background-color: #7e7878;
+	border: solid 1px #9e9c9c;
+}
+#panel {
+	padding: 50px;
+	display: none;
+  }
+  .header {
+	padding: 30px;
+	font-size: 40px;
+	text-align: center;
+	background: white;
+  }
+  .product_wrapper {
+	float:left;
+	padding: 10px;
+	text-align: center;
+	}
+.product_wrapper:hover {
+	box-shadow: 0 0 0 2px #e5e5e5;
+	cursor:pointer;
+	}
+.product_wrapper .name {
+	font-weight:bold;
+	}
+.product_wrapper .buy {
+	text-transform: uppercase;
+    background: #F68B1E;
+    border: 1px solid #F68B1E;
+    cursor: pointer;
+    color: #fff;
+    padding: 8px 40px;
+    margin-top: 10px;
+}
+.product_wrapper .buy:hover {
+	background: #f17e0a;
+    border-color: #f17e0a;
+}
+.message_box .box{
+	margin: 10px 0px;
+    border: 1px solid #2b772e;
+    text-align: center;
+    font-weight: bold;
+    color: #2b772e;
+	}
+.table td {
+	border-bottom: #F0F0F0 1px solid;
+	padding: 10px;
+	}
+.cart_div {
+	float:right;
+	font-weight:bold;
+	position:relative;
+	}
+.cart_div a {
+	color:rgb(255, 255, 255);
+	}	
+.cart_div span {
+	font-size: 12px;
+    line-height: 14px;
+    background: #F68B1E;
+    padding: 2px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -1px;
+    left: 13px;
+    color: #fff;
+    width: 14px;
+    height: 13px;
+    text-align: center;
+	}
+.cart .remove {
+    background: none;
+    border: none;
+    color: #0067ab;
+    cursor: pointer;
+    padding: 0px;
+	}
+.cart .remove:hover {
+	text-decoration:underline;
+	}
